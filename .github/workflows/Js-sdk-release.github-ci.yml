@@ -14,11 +14,7 @@ on:
 jobs:
   release-pub:
     name: "release-pub"
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-20.04]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-20.04
     steps:
       # 把分支拉出来
       - name: Checkout
@@ -38,7 +34,6 @@ jobs:
       - name: Build
         run: |
           npm run build
-      - run: echo ${{ secrets.NPM_TOKEN }}
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
