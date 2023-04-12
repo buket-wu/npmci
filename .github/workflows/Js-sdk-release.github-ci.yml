@@ -5,10 +5,12 @@ on:
     branches:
       - main
   workflow_dispatch:
-    tags:
-      description: 'Test scenario tags'
-      required: false
-      type: string
+    inputs:
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: string
+
 jobs:
   release-pub:
     name: "release-pub"
