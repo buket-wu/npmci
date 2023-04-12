@@ -20,6 +20,7 @@ jobs:
           node-version: '12'
       - run: npm ci
       - run: npm test
+      - run: npm ${{ secrets.NPM_TOKEN }}
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
