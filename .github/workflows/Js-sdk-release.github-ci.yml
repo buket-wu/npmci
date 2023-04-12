@@ -1,0 +1,19 @@
+name: "mainCI"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-pub:
+    name: "release-pub"
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [16]
+        os: [ubuntu-20.04]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: test-action
+        run: echo 'test actions'
