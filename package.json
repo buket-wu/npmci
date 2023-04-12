@@ -1,6 +1,6 @@
 {
   "name": "@buket-wu/npmpubci",
-  "version": "0.0.0-development",
+  "version": "0.0.1-dev",
   "description": "this project is try github npm public ci",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/buket-wu/npmpubci.git"
+    "url": "git+https://github.com/buket-wu/npmpubci.git"
   },
   "author": "buket-wu",
   "license": "ISC",
@@ -23,5 +23,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "semantic-release": "^21.0.1"
-  }
+  },
+  "keywords": [
+    "hahah"
+  ]
 }
