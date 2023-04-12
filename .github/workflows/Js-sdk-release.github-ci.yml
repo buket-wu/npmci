@@ -30,10 +30,6 @@ jobs:
       - name: Install
         run: |
           npm install
-      # 打包你的插件/组件/库等等等
-      - name: Build
-        run: |
-          npm run build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}

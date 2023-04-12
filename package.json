@@ -22,9 +22,13 @@
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
+    "lerna": "^6.6.1",
     "semantic-release": "^21.0.1"
   },
   "keywords": [
     "hahah"
+  ],
+  "workspaces": [
+    "packages/*"
   ]
 }
