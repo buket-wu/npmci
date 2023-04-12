@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/buket-wu/npmpubci#readme",
   "dependencies": {
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^21.0.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
-    "lerna": "^6.6.1",
-    "semantic-release": "^21.0.1"
+    "lerna": "^6.6.1"
   },
   "keywords": [
     "hahah"
