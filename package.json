@@ -1,0 +1,19 @@
+{
+  "name": "@buket-wu/npmpubci",
+  "version": "1.0.0",
+  "description": "this project is try github npm public ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buket-wu/npmpubci.git"
+  },
+  "author": "buket-wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buket-wu/npmpubci/issues"
+  },
+  "homepage": "https://github.com/buket-wu/npmpubci#readme"
+}
