@@ -1,19 +1,27 @@
 {
   "name": "@buket-wu/npmpubci",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "this project is try github npm public ci",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buket-wu/npmpubci.git"
+    "url": "https://github.com/buket-wu/npmpubci.git"
   },
   "author": "buket-wu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/buket-wu/npmpubci/issues"
   },
-  "homepage": "https://github.com/buket-wu/npmpubci#readme"
+  "homepage": "https://github.com/buket-wu/npmpubci#readme",
+  "dependencies": {
+    "semantic-release": "^21.0.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "semantic-release": "^21.0.1"
+  }
 }
