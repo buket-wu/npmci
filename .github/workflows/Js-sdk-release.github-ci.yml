@@ -20,7 +20,3 @@ jobs:
           node-version: '12'
       - run: npm ci
       - run: npm test
-      - name: Release
-        env:
-          NPM_TOKEN: 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
-        run: npx semantic-release
