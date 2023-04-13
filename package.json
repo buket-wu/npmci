@@ -1,6 +1,6 @@
 {
   "name": "@buket-wu/npmpubci",
-  "version": "2.0.0-alpha.1",
+  "version": "1.0.2",
   "description": "this project is try github npm public ci",
   "main": "index.js",
   "scripts": {
